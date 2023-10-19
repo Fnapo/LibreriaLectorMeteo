@@ -7,6 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove=".gitattributes" />
+    <None Remove=".gitignore" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\LibClienteHttpUTF8\LibClienteHttpUTF8.csproj" />
     <ProjectReference Include="..\LibClienteMeteo\LibClienteMeteo.csproj" />
   </ItemGroup>
